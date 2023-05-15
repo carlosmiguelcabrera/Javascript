@@ -1,4 +1,9 @@
-//Este código realiza un conteo regresivo desde 10 hasta 1 y muestra un mensaje al final.
+/*
+Explicación: La variable counter se inicializa en 10. El bucle while se ejecuta
+mientras el valor de counter sea mayor que 0. En cada iteración del bucle, se 
+imprime el valor de counter y luego se decrementa en 1. Cuando el valor de counter
+llega a 0, el bucle se detiene y se muestra el mensaje "¡Feliz Año Nuevo!" en la consola.
+*/
 
 var counter = 10
 while (counter > 0){
