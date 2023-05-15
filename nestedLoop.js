@@ -10,9 +10,9 @@ Una vez que el bucle interno finaliza, el bucle externo continúa con
 la siguiente iteración, aumentando el valor de year en 1. Esto se 
 repite hasta que year alcanza el valor de 2025.*/
 
-for(var year = 2023; year < 2025; year++) {
-    console.log(year);
-    for(month = 6; month < 9; month++){
-        console.log("...........", month);
+for(var i = 2023; i < 2025; i++) {
+    console.log(i);
+    for(var j = 6; j < 9; j++){
+        console.log("...........", j);
     }
 }
