@@ -24,7 +24,7 @@ var distance = getDistance(mph, h);
 console.log(distance); // <====== THIS HERE!
 
 
-// Ejemplo Funcion Programacion funcional
+// otro ejemplo Funcion Programacion funcional
 
 function getTotal(a,b) {
     return a + b
