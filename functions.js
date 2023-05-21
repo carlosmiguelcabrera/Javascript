@@ -8,7 +8,10 @@ example();
 }
 /* Cuando escribimos un código FP, mantenemos los datos y la funcionalidad
 por separado y pasamos los datos a las funciones solo cuando queremos que 
-algo se calcule.*/
+algo se calcule.
+En la programación funcional, las funciones devuelven nuevos valores y luego
+usan esos valores en otra parte del código.
+*/
 
 
 function getDistance(mph, h) {
@@ -17,6 +20,8 @@ function getDistance(mph, h) {
 var mph = 60;
 var h = 2;
 var distance = getDistance(mph, h);
+
+console.log(distance); // <====== THIS HERE!
 
 
 // Ejemplo Funcion Programacion funcional
