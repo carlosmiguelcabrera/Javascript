@@ -6,8 +6,21 @@ counter = counter - 1;
 if (counter === 0) return;
 example();
 }
+/* Cuando escribimos un código FP, mantenemos los datos y la funcionalidad
+por separado y pasamos los datos a las funciones solo cuando queremos que 
+algo se calcule.*/
+
+
+function getDistance(mph, h) {
+    return mph * h
+}
+var mph = 60;
+var h = 2;
+var distance = getDistance(mph, h);
+
 
 // Ejemplo Funcion Programacion funcional
+
 function getTotal(a,b) {
     return a + b
 }
