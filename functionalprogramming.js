@@ -34,3 +34,17 @@ styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
 
 
 // Call styleAndCelebrate
+
+// Ejemplo de programación funcional: filtrar números pares
+
+// Lista de números
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Función para comprobar si un número es par
+const isEven = (number) => number % 2 === 0;
+
+// Utilizando programación funcional para filtrar los números pares
+const evenNumbers = numbers.filter(isEven);
+
+// Imprimir el resultado
+console.log(evenNumbers);
