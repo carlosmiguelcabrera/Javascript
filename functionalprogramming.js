@@ -48,3 +48,19 @@ const evenNumbers = numbers.filter(isEven);
 
 // Imprimir el resultado
 console.log(evenNumbers);
+
+const add = (x) => x + 1;
+const multiply = (x, y) => x * y;
+
+const composedFunction = (x, y) => multiply(add(x), y);
+
+console.log(composedFunction(2, 3)); // 9
+
+
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, num) => accumulator + num, 0);
+
+console.log(sum); // 15
+
