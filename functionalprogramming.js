@@ -73,3 +73,14 @@ def factorial(n):
 
 result = factorial(5)  # 120
 
+# Función de orden superior que toma una función y una lista, y aplica la función a cada elemento de la lista
+def apply_function_to_list(func, lst):
+    return [func(x) for x in lst]
+
+# Función que suma 1 a un número
+def increment(x):
+    return x + 1
+
+numbers = [1, 2, 3, 4, 5]
+result = apply_function_to_list(increment, numbers)  # [2, 3, 4, 5, 6]
+
