@@ -64,3 +64,12 @@ const sum = numbers.reduce((accumulator, num) => accumulator + num, 0);
 
 console.log(sum); // 15
 
+# Cálculo del factorial de un número de forma recursiva
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+result = factorial(5)  # 120
+
