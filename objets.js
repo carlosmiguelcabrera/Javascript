@@ -44,3 +44,27 @@ const perro1 = new Perro('Firulais');
 animal1.comer(); // Imprime: Animal está comiendo.
 perro1.comer();  // Imprime: Firulais está comiendo.
 perro1.ladrar(); // Imprime: Firulais está ladrando.
+
+//Ejercicio 1: Crear una clase "Rectángulo" y calcular su área y perímetro.
+
+class Rectangulo {
+  constructor(ancho, altura) {
+    this.ancho = ancho;
+    this.altura = altura;
+  }
+
+  calcularArea() {
+    return this.ancho * this.altura;
+  }
+
+  calcularPerimetro() {
+    return 2 * (this.ancho + this.altura);
+  }
+}
+
+// Crear una instancia de Rectangulo
+const rectangulo = new Rectangulo(5, 3);
+
+// Calcular y mostrar el área y perímetro del rectángulo
+console.log("Área del rectángulo:", rectangulo.calcularArea());
+console.log("Perímetro del rectángulo:", rectangulo.calcularPerimetro());
