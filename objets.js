@@ -68,3 +68,40 @@ const rectangulo = new Rectangulo(5, 3);
 // Calcular y mostrar el área y perímetro del rectángulo
 console.log("Área del rectángulo:", rectangulo.calcularArea());
 console.log("Perímetro del rectángulo:", rectangulo.calcularPerimetro());
+
+//Ejercicio 2: Crear una clase "CuentaBancaria" con métodos para depositar, retirar y obtener el saldo.
+
+class CuentaBancaria {
+  constructor() {
+    this.saldo = 0;
+  }
+
+  depositar(cantidad) {
+    this.saldo += cantidad;
+    console.log("Se depositaron", cantidad, "en la cuenta.");
+  }
+
+  retirar(cantidad) {
+    if (cantidad <= this.saldo) {
+      this.saldo -= cantidad;
+      console.log("Se retiraron", cantidad, "de la cuenta.");
+    } else {
+      console.log("Saldo insuficiente para realizar la operación.");
+    }
+  }
+
+  obtenerSaldo() {
+    return this.saldo;
+  }
+}
+
+// Crear una instancia de CuentaBancaria
+const cuenta = new CuentaBancaria();
+
+// Realizar operaciones de depósito y retiro
+cuenta.depositar(1000);
+cuenta.retirar(500);
+cuenta.retirar(800); // Intentar retirar una cantidad mayor al saldo actual
+
+// Obtener y mostrar el saldo actual
+console.log("Saldo actual:", cuenta.obtenerSaldo());
