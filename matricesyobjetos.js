@@ -21,17 +21,25 @@ Tareas para completar
 
     Utilice la consola para registrar todo el objeto favCar.*/
 
-const ropa[];
-ropa.push('camisa');
-ropa.push('pantaton');
-ropa.push('remera');
-ropa.push('zapatillas');
-ropa.push('gorro');
-ropa.pop();
-ropa.push('sandalias');
-console.log(ropa[3]);
+// Creación de matriz y manipulación
+const ropa = [];
 
-const favCar[];
-favCar.color('Rojo');
-favCar.convertible(True);
-console.log(FavCar);
+ropa.push('camiseta');
+ropa.push('pantalón');
+ropa.push('chaqueta');
+ropa.push('vestido');
+ropa.push('zapatos');
+
+ropa.pop();
+
+ropa.push('bufanda');
+
+console.log(ropa[2]); // Output: 'chaqueta'
+
+// Creación de objeto y asignación de propiedades
+const favCar = {};
+
+favCar.color = 'rojo';
+favCar.convertible = true;
+
+console.log(favCar);
