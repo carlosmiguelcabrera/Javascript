@@ -124,3 +124,68 @@ car.lightsOn = function() {
 console.log(car);
 car.turnTheKey();
 car.lightsOn()
+
+
+¡Por supuesto! Aquí tienes un ejemplo de ejercicio de programación orientada a objetos en JavaScript sobre trenes y su velocidad:
+
+javascript
+Copy code
+// Definición de la clase Tren
+class Tren {
+  constructor(nombre) {
+    this.nombre = nombre;
+    this.velocidad = 0;
+  }
+
+  acelerar(velocidad) {
+    this.velocidad += velocidad;
+    console.log(`El tren ${this.nombre} aceleró a ${this.velocidad} km/h.`);
+  }
+
+  frenar() {
+    this.velocidad = 0;
+    console.log(`El tren ${this.nombre} se detuvo.`);
+  }
+}
+
+// Creación de objetos Tren
+const tren1 = new Tren("Tren A");
+const tren2 = new Tren("Tren B");
+
+// Operaciones en los trenes
+tren1.acelerar(50);
+tren2.acelerar(80);
+tren1.frenar();
+tren2.frenar();
+
+/*En este ejemplo, creamos la clase Tren con un constructor que inicializa el nombre del tren y su velocidad en 0. Luego, tenemos dos métodos: acelerar que incrementa la velocidad del tren y muestra un mensaje en la consola, y frenar que detiene el tren y muestra un mensaje en la consola.
+Después de definir la clase, creamos dos objetos tren1 y tren2 utilizando el constructor de la clase Tren. Luego, llamamos a los métodos acelerar y frenar en cada uno de los objetos para simular acciones en los trenes.
+¡Puedes ejecutar este código en un entorno de JavaScript para ver los mensajes de salida en la consola y experimentar con diferentes valores de velocidad y acciones en los trenes!*/
+
+// Definición de la clase Tren
+class Tren {
+  constructor(nombre) {
+    this.nombre = nombre;
+    this.velocidad = 0;
+  }
+
+  acelerar(velocidad) {
+    this.velocidad += velocidad;
+    console.log(`El tren ${this.nombre} aceleró a ${this.velocidad} km/h.`);
+  }
+
+  frenar() {
+    this.velocidad = 0;
+    console.log(`El tren ${this.nombre} se detuvo.`);
+  }
+}
+
+// Creación de objetos Tren
+const tren1 = new Tren("Tren A");
+const tren2 = new Tren("Tren B");
+
+// Operaciones en los trenes
+tren1.acelerar(50);
+tren2.acelerar(80);
+tren1.frenar();
+tren2.frenar();
