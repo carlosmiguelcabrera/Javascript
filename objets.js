@@ -105,3 +105,22 @@ cuenta.retirar(800); // Intentar retirar una cantidad mayor al saldo actual
 
 // Obtener y mostrar el saldo actual
 console.log("Saldo actual:", cuenta.obtenerSaldo());
+
+/* El código crea un objeto "car" con propiedades como "mileage" (kilometraje) y "color". También define métodos como "turnTheKey"
+(encender el motor) y "lightsOn" (encender las luces). Luego, muestra el objeto "car" actualizado en la consola y llama a los métodos
+para imprimir mensajes indicando que el motor está en marcha y las luces están encendidas. En resumen, el código representa la 
+simulación de un automóvil con sus propiedades y acciones básicas.*/
+
+var car = {};
+car.mileage = 98765;
+car.color = "red";
+console.log(car);
+car.turnTheKey = function() {
+    console.log("The engine is running")
+}
+car.lightsOn = function() {
+    console.log("The lights are on.")
+}
+console.log(car);
+car.turnTheKey();
+car.lightsOn()
