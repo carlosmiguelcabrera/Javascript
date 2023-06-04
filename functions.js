@@ -1,6 +1,10 @@
-// Funion basica que al llamarla muestra Hola mundo
+// Funcion basica que al llamarla muestra Hola mundo
 function holaMundo() {
   console.log("Hello World");
+}
+//Crea una función timesFive que acepte un argumento, lo multiplique por 5y devuelva el nuevo valor.
+/function timesFive(para1){
+  return para1 * 5;
 }
 // Funion basica usando Argumentos
 function functionWithArgs(num1, num2) {
