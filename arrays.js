@@ -1,6 +1,5 @@
 //Crea una lista ejemplo
-
-var myList = [
+const myList = [
   ["Manzanas", 5],
   ["Plátanos", 3],
   ["Leche", 2],
