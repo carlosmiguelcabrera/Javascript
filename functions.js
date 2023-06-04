@@ -2,6 +2,11 @@
 function holaMundo() {
   console.log("Hello World");
 }
+// Funion basica usando Argumentos
+function functionWithArgs(num1, num2) {
+  console.log(num1 + num2);
+}
+functionWithArgs(5,7); //llamando a la funcion con parametros en este caso Devuelve 12
 
 // Ejemplo 3, 2, 1 corte
 let counter = 3;
