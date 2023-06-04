@@ -1,3 +1,8 @@
+// Funion basica que al llamarla muestra Hola mundo
+function holaMundo() {
+  console.log("Hello World");
+}
+
 // Ejemplo 3, 2, 1 corte
 let counter = 3;
 function example() {
