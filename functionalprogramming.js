@@ -84,3 +84,21 @@ def increment(x):
 numbers = [1, 2, 3, 4, 5]
 result = apply_function_to_list(increment, numbers)  # [2, 3, 4, 5, 6]
 
+// Definir una función para calcular el factorial de un número
+function factorial(n) {
+  if (n === 0 || n === 1) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+// Pedir al usuario que ingrese un número
+var num = parseInt(prompt("Ingrese un número:"));
+
+// Calcular el factorial del número ingresado
+var resultado = factorial(num);
+
+// Mostrar el resultado
+console.log("El factorial de " + num + " es: " + resultado);
+
